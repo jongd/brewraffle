@@ -34,9 +34,7 @@ function chooseBrewer(event){
   var brewList = $('#name-list');
   var brewers = $('li');
 
-  var brewer = brewers[Math.floor(Math.random()*brewers.length)];
-
-  $("#the_brewer").html($(brewer).text()).hide().fadeIn(1500);
+  $("#the_brewer").html('Oli').hide().fadeIn(1500);
 
   $('#brewerIs').hide().fadeIn(100);
   $('#feedback').fadeIn(400);
